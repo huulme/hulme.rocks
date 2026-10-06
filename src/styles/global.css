@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Love Letter Typewriter';
+  src: url(/LoveLetterTW.woff2) format('woff2');
+}
+
+@theme {
+  --font-lain: "Love Letter Typewriter", monospace;
+
+  /* lain palette — warm wired blacks + beige static */
+  --color-void: #0e0d0b;
+  --color-panel: #191713;
+  --color-ink: #d9d2b9;
+  --color-dim: #8f8873;
+  --color-line: #2e2a23;
+  --color-signal: #e2c044;
+  --color-alert: #d14a33;
+  --color-ghost: #7d8b99;
+}
